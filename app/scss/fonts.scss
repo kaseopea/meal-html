@@ -1,0 +1,4 @@
+@import "bourbon";
+@include font-face(MyriadProRegular, "../fonts/MyriadProRegular/MyriadProRegular", normal, $file-formats: eot woff ttf);
+@include font-face(MyriadProBold, "../fonts/MyriadProBold/MyriadProBold", bold, $file-formats: eot woff ttf);
+@include font-face(PFDinTextCompPro, "../fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light", normal, $file-formats: eot woff ttf);
