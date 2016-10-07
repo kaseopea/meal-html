@@ -3,22 +3,34 @@
         <img class="activator" src="@@imageUrl">
     </div>
     <div class="card-content">
-        <span class="card-title activator flow-text">@@title<i class="material-icons right">more_vert</i></span>
+        <span class="card-title activator flow-text">@@title <i class="material-icons right">more_vert</i></span>
         <div class="row">
             <div class="col s4">
-                <div class="flow-text">@@price</div>
+                <div class="card-price flow-text">@@price</div>
             </div>
             <div class="col s8 right-align">
                 <div class="order-actions">
-                    <a class="waves-effect waves-light btn" onclick="Materialize.toast('Заказ отменен', 2000)"><i class="material-icons right">remove_circle</i></a>
-                    <a class="waves-effect waves-light btn" onclick="Materialize.toast('Заказ сделан', 2000)"><i class="material-icons right">add_circle</i></a>
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry">3x</a></li>
+                      <li><a class="btn-floating raspberry">2x</a></li>
+                      <li><a class="btn-floating raspberry">1x</a></li>
+                    </ul>
+                  </div>
+
+                    <!-- <a class="waves-effect waves-light btn" onclick="Materialize.toast('Заказ отменен', 2000)"><i class="material-icons right">remove_circle</i></a>
+                    <a class="waves-effect waves-light btn" onclick="Materialize.toast('Заказ сделан', 2000)"><i class="material-icons right">add_circle</i></a> -->
                 </div>
             </div>
         </div>
 
     </div>
     <div class="card-reveal">
-        <span class="card-title">@@title<i class="material-icons right">close</i></span>
+        <span class="card-title">@@title<i class="material-icons right icon-close">close</i></span>
         <div class="divider"></div>
         <div class="section">
             <div class="row">
@@ -26,17 +38,18 @@
                     <div class="flow-text">@@weight</div>
                 </div>
                 <div class="col s6 right-align">
-                    <div class="flow-text"><i class="material-icons prefix">whatshot</i> @@calories</div>
+                    <div class="flow-text">@@calories</div>
                 </div>
             </div>
         </div>
         <div class="divider"></div>
         <div class="section">
-            <h5>Состав</h5>
-            <p>@@contents</p>
+            <p class="flow-text">@@contents</p>
         </div>
     </div>
 
-    <div class="loader-overlay"><span class="loading dots"></span></div>
+    @@if(name === 'meal' && loader === true) {
+      <div class="loader-overlay"><div class="loader">Loading...</div></div>
+    }
 
 </div>

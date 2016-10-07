@@ -1,102 +1,151 @@
 .card-content .material-icons {
-  line-height: inherit;
+    line-height: inherit;
 }
 
-.navi-color {
-  background: #A3C644;
-}
-.page-title {
-  padding: 2em 0 1em 0;
-  background: #B22746;
-  line-height: 60px;
 
-  &__title {
-    font-family: $secondary-font;
-    color: #fff;
-    margin: 0;
-  }
-}
-
+/* Tabs */
+/* -----------------------------------------------------------------------------------------------------------------  */
 .main-tabs {
-  background: #B22746;
+    background: $lime-green;
 
-  .tabs {
-    height: 56px;
+    .tabs {
+        height: 56px;
 
-    .tab {
-      height: 56px;
-      line-height: 56px;
-      a {
-        background: #B22746;
-        color: #fff;
-      }
-      a.active {
-        background: #fff;
-        color: #333333;
-      }
+        .tab {
+            height: 56px;
+            line-height: 56px;
+            a {
+                background: $raspberry;
+                color: #fff;
+            }
+            a.active {
+                background: #fff;
+                color: #333333;
+            }
+        }
+        .indicator {
+            display: none;
+        }
     }
-    .indicator {
-      display: none;
-    }
-  }
 }
+
+/* Catalog Grid */
+/* -----------------------------------------------------------------------------------------------------------------  */
 .catalog-grid {
-  .collapsible {
-    box-shadow: none;
-  }
-  .collapsible-header {
-    padding: 0;
-  }
-
-  .category-title {
-    padding: .25em 1em;
-    font-family: $secondary-font;
-    font-size: 32px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-
-    &:before {
-      content: '- ';
+    .collapsible {
+        box-shadow: none;
     }
-    &:after {
-      content: ' -';
+    .collapsible-header {
+        padding: 0;
     }
-  }
 
-  .collapsible {
-    li.active {
-      .category-title {
-        color: #fff;
-        background: #B22746;
+    .category-title {
+        padding: .25em 1em;
+        font-family: $secondary-font;
+        font-size: 32px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+
+        &:before {
+            content: '- ';
+            @media #{$small-and-down} {
+              content: '';
+            }
+        }
+        &:after {
+            content: ' -';
+            @media #{$small-and-down} {
+              content: '';
+            }
+        }
+        @media #{$small-and-down} {
+          font-size: 28px;
+        }
+    }
+
+    .card-price {
+      font-family: $secondary-font;
+      font-size: 200%;
+      white-space: nowrap;
+    }
+
+    .collapsible {
+        li.active {
+            .category-title {
+                color: $raspberry;
+                background: $light-light-gray;
+            }
+        }
+    }
+    .card-reveal {
+      .card-title {
+        margin-bottom: 1em;
+      }
+      .row {
+        margin-bottom: 0
+      }
+      .icon-close {
+        position: relative;
+        top: 13px;
       }
     }
-  }
-  .collapsible-body {
-    padding: 1em;
-  }
+    .collapsible-body {
+        padding: 1em;
+
+        p {
+          padding: 0
+        }
+    }
 }
 
-
+/* Catalog Meal Card */
+/* -----------------------------------------------------------------------------------------------------------------  */
 .meal-card {
-  .card-title {
-    font-family: $secondary-font;
-    font-size: 32px;
-  }
-
-  .order-actions {
-    .btn {
-      font-weight: bold;
-      padding: 0 1rem;
-      margin-left: 10px;
-      i {
-        color: $white;
-        margin: 0;
-      }
+    .card-title {
+        font-family: $secondary-font;
+        font-size: 32px;
     }
-  }
 
-  .loader-overlay {
-    
-  }
+    .order-actions {
+
+      .fixed-action-btn {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+
+        .btn-floating {
+          text-align: center;
+          font-weight: bold;
+        }
+
+        .btn {
+          padding: 0;
+        }
+      }
+
+        .btn {
+            font-weight: bold;
+            padding: 0 1rem;
+            margin-left: 10px;
+            i {
+                color: $white;
+                margin: 0;
+            }
+        }
+    }
+
+    .loader-overlay {
+        position: absolute;
+        top:0;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: rgba(255,255,255,.9);
+    }
 }

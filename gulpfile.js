@@ -60,7 +60,10 @@ gulp.task('scripts', function () {
 gulp.task('buildhtml', function () {
 	return gulp.src(['app/*.html'])
 		.pipe(fileinclude({
-			prefix: '@@'
+			prefix: '@@',
+			context: {
+				name: 'meal'
+			}
 		}))
 		.pipe(gulp.dest('dist/'));
 });

@@ -1,9 +1,35 @@
 body {
   padding-bottom: 120px;
 }
+/* COLORS */
+/* -----------------------------------------------------------------------------------------------------------------  */
+.raspberry {
+  background-color: $raspberry;
+}
+
+/* Navigation */
+/* -----------------------------------------------------------------------------------------------------------------  */
+.navi-color {
+    background: $white;
+
+    .brand-logo {
+      display: block;
+      height: 100%;
+      line-height: 64px;
+
+      img {
+        margin-top: 15px;
+      }
+    }
+
+    i {
+      color: $graphite;
+    }
+}
+
 
 /* Mobile Navigation */
-/* -------------------------------------------------------------------------  */
+/* -----------------------------------------------------------------------------------------------------------------  */
 #nav-mobile {
 
   &.side-nav {
@@ -20,8 +46,36 @@ body {
   }
 }
 
+/* Page Title */
+/* -----------------------------------------------------------------------------------------------------------------  */
+.page-title {
+    background: $lime-green url('../img/pattern_large.png');
+    line-height: 60px;
+
+    .page-meta {
+      padding: 2em 0;
+    }
+
+    &__title {
+        font-family: $secondary-font;
+        color: #fff;
+        margin: 0;
+    }
+
+    .btn-supplier-change {
+      color: $dark-gray;
+    }
+}
+
+.catalog {
+  .page-meta {
+    padding: 2em 0 1em 0;
+  }
+}
+
+
 /* Default buttons styles */
-/* -------------------------------------------------------------------------  */
+/* -----------------------------------------------------------------------------------------------------------------  */
 .btn, .btn-large {
   color: $black;
   background: $lime-green;
@@ -32,19 +86,41 @@ body {
 }
 
 /* Footer styles */
-/* -------------------------------------------------------------------------  */
+/* -----------------------------------------------------------------------------------------------------------------  */
 .footer {
   position: fixed;
   bottom: 0;
   width:100%;
 
-  background: #B22746;
+  background: $lime-green url('../img/pattern_large.png');
   height: 50px;
   line-height: 50px;
   z-index: 100;
   color: #fff;
 
-  .order-price {
-    font-size: 20px;
+  i {
+    position: relative;
+    top: 4px;
+  }
+
+  .time-left {
+    color: $raspberry;
+  }
+}
+
+/* Blink */
+/* -----------------------------------------------------------------------------------------------------------------  */
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
   }
 }
