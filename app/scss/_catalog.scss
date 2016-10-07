@@ -83,4 +83,16 @@
     font-family: $secondary-font;
     font-size: 32px;
   }
+
+  .order-actions {
+    .btn {
+      font-weight: bold;
+      padding: 0 1rem;
+      margin-left: 10px;
+      i {
+        color: $white;
+        margin: 0;
+      }
+    }
+  }
 }

@@ -1,0 +1,27 @@
+/* Default buttons styles */
+/* -------------------------------------------------------------------------  */
+.welcome {
+  .btn, .btn-large {
+    color: $white;
+    background: $raspberry;
+  }
+
+  .btn:hover, .btn-large:hover {
+    background: $plum;
+  }
+}
+
+/* Welcome styles */
+/* -------------------------------------------------------------------------  */
+.welcome {
+  background: $dark-blue;
+  padding-top: 5em;
+
+  .welcomeForm {
+    .submit {
+      display: block;
+      width: 100%;
+    }
+  }
+
+}
