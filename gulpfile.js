@@ -49,27 +49,26 @@ gulp.task('scripts', function () {
 	return gulp.src([
 			'./app/libs/modernizr/modernizr.js',
 			'./app/libs/jquery/dist/jquery.js',
-			'./app/libs/materialize/dist/js/materialize.js'
+			'./app/libs/materialize/bin/materialize.js',
 		])
 		.pipe(concat('libs.js'))
-		.pipe(uglify()) //Minify libs.js
-		.pipe(gulp.dest('./dist/js/'));
+		// .pipe(uglify()) //Minify libs.js
+		.pipe(gulp.dest('./app/js/'));
 });
 
 gulp.task('buildhtml', function () {
-	return gulp.src(['app/**/*.html'])
+	return gulp.src(['app/*.html'])
 		.pipe(fileinclude({
 			prefix: '@@'
 		}))
 		.pipe(gulp.dest('dist/'));
-		// .pipe(browserSync.reload);
 });
 
 gulp.task('watch', function () {
 	gulp.watch('app/scss/**/*.scss', ['styles']);
 	gulp.watch('app/libs/**/*.js', ['scripts']);
 	gulp.watch('app/js/*.js').on("change", browserSync.reload);
-	gulp.watch('app/*.html', ['buildhtml', 'browserSync_Reload']);
+	gulp.watch('app/**/*.html', ['buildhtml', 'browserSync_Reload']);
 });
 gulp.task('browserSync_Reload', function () {
 	browserSync.reload();

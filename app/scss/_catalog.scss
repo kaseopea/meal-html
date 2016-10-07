@@ -1,0 +1,87 @@
+.card-content .material-icons {
+  line-height: inherit;
+}
+
+.navi-color {
+  background: #A3C644;
+}
+
+.supplier {
+  padding: 2em 0 1em 0;
+  background: #B22746;
+  line-height: 60px;
+
+  &__title {
+    font-family: $secondary-font;
+    color: #fff;
+    margin: 0;
+  }
+}
+
+.main-tabs {
+  background: #B22746;
+
+  .tabs {
+    height: 56px;
+
+    .tab {
+      height: 56px;
+      line-height: 56px;
+      a {
+        background: #B22746;
+        color: #fff;
+      }
+      a.active {
+        background: #fff;
+        color: #333333;
+      }
+    }
+    .indicator {
+      display: none;
+    }
+  }
+}
+.catalog-grid {
+  .collapsible {
+    box-shadow: none;
+  }
+  .collapsible-header {
+    padding: 0;
+  }
+
+  .category-title {
+    padding: .25em 1em;
+    font-family: $secondary-font;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+    &:before {
+      content: '- ';
+    }
+    &:after {
+      content: ' -';
+    }
+  }
+
+  .collapsible {
+    li.active {
+      .category-title {
+        color: #fff;
+        background: #B22746;
+      }
+    }
+  }
+  .collapsible-body {
+    padding: 1em;
+  }
+}
+
+
+.meal-card {
+  .card-title {
+    font-family: $secondary-font;
+    font-size: 32px;
+  }
+}

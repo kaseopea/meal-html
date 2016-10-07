@@ -1,0 +1,20 @@
+body {
+  padding-bottom: 120px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+
+  background: #B22746;
+  height: 50px;
+  line-height: 50px;
+  z-index: 100;
+
+  color: #fff;
+
+
+  .order-price {
+    font-size: 20px;
+  }
+}

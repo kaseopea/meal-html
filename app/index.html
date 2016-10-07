@@ -1,34 +1,67 @@
 @@include('./tpl/header.tpl.html')
 
-<section class="first-screen first-screen__index bordered">
+<section class="welcomeForm">
 
-    @@include('./tpl/top.tpl.html')
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 offset-m3">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
 
-    <div class="map grid">
-        <img src="img/map.png" alt="Карта" class="img-res">
+
+
+                    <div class="row">
+                        <form action="catalog.html" class="col s12">
+
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="icon_prefix" type="text" class="validate">
+                                    <label for="icon_prefix">Ваше имя (как в UPSA)</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">business</i>
+                                    <select>
+                                        <option value="" disabled selected>Выберите офис</option>
+                                        <option value="1">EPAM Речицкий, 80</option>
+                                        <option value="2">EPAM Интернациональная, 13</option>
+                                    </select>
+                                    <label>Materialize Select</label>
+                                </div>
+
+                            </div>
+
+                            <div class="row center-align">
+
+                            </div>
+
+                        </form>
+                    </div>
+
+                    </div>
+
+
+                    <div class="card-action">
+                      <button class="btn btn-large waves-effect waves-light" type="submit" name="action">Заказать еду
+                          <i class="material-icons right">local_dining</i>
+                      </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="grid">
-        <div class="col-1-2">
-            <h2>Компания «ФАКЕЛ»</h2>
-            <p>оказывает комплексное таможенно-логистическое обслуживание грузов, а также берет на себя организацию работ по представительству интересов участников внешнеэкономической деятельности на пунктах таможенного контроля России и в соответствующих органах государственной власти. При необходимости мы привлекаем соисполнителей, которые позволяют нам организовать доставку грузов по принципу door-to-door из (в) любой страны мира.</p>
-        </div>
-        <div class="col-1-2">
-
-            <h3>Мы предоставляем услуги<br>таможенного оформления на следующих таможнях:</h3>
-
-            <ul>
-                <li>Балтийская таможня (порт Санкт – Петербург), Усть-Лужская таможня — <strong>морские грузы</strong></li>
-                <li>Санкт-Петербургская таможня — <strong>автогрузы</strong></li>
-                <li>Московская областная таможня — <strong>автогрузы</strong></li>
-                <li>Аэропорт Шереметьево — <strong>авиагрузы</strong></li>
-                <li>Сибирь (Забайкальск), Урал, Поволжье (Нижний Новгород, Уфа) — <strong>железнодорожные и авиагрузы</strong></li>
-                <li>Владивостокская таможня — <strong>морские грузы</strong></li>
-            </ul>
-
-        </div>
-    </div>
 </section>
+
+<div class="progress">
+    <div class="indeterminate"></div>
+</div>
 
 
 @@include('./tpl/footer.tpl.html')
