@@ -2,6 +2,24 @@ body {
   padding-bottom: 120px;
 }
 
+/* Mobile Navigation */
+/* -------------------------------------------------------------------------  */
+#nav-mobile {
+
+  &.side-nav {
+    padding-top: 3em;
+  }
+  a {
+    clear: both;
+    font-size: 150%;
+    padding: 16px;
+
+    i {
+      margin-right: 16px;
+    }
+  }
+}
+
 /* Default buttons styles */
 /* -------------------------------------------------------------------------  */
 .btn, .btn-large {
