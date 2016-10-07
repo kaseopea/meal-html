@@ -10,8 +10,8 @@
             </div>
             <div class="col s8 right-align">
                 <div class="order-actions">
-                    <a class="waves-effect waves-light btn"><i class="material-icons right">remove_circle</i></a>
-                    <a class="waves-effect waves-light btn"><i class="material-icons right">add_circle</i></a>
+                    <a class="waves-effect waves-light btn" onclick="Materialize.toast('Заказ отменен', 2000)"><i class="material-icons right">remove_circle</i></a>
+                    <a class="waves-effect waves-light btn" onclick="Materialize.toast('Заказ сделан', 2000)"><i class="material-icons right">add_circle</i></a>
                 </div>
             </div>
         </div>
@@ -19,9 +19,7 @@
     </div>
     <div class="card-reveal">
         <span class="card-title">@@title<i class="material-icons right">close</i></span>
-
         <div class="divider"></div>
-
         <div class="section">
             <div class="row">
                 <div class="col s6">
@@ -31,14 +29,14 @@
                     <div class="flow-text"><i class="material-icons prefix">whatshot</i> @@calories</div>
                 </div>
             </div>
-
         </div>
         <div class="divider"></div>
-
         <div class="section">
             <h5>Состав</h5>
             <p>@@contents</p>
         </div>
-
     </div>
+
+    <div class="loader-overlay"><span class="loading dots"></span></div>
+
 </div>

@@ -14,7 +14,6 @@
 
 
 		// charts
-
 		var ctx = document.getElementById("stats");
 		var myChart = new Chart(ctx, {
     type: 'bar',

@@ -17,5 +17,8 @@
     "gulp-uglify": "2.0.0",
     "imagemin-pngquant": "5.0.0",
     "node-bourbon": "4.2.8"
+  },
+  "dependencies": {
+    "text-spinners": "1.0.1"
   }
 }
