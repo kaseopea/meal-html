@@ -1,0 +1,4 @@
+node_modules/
+app/libs/
+dist/
+.idea/

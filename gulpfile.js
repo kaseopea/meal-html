@@ -65,10 +65,16 @@ gulp.task('buildhtml', function () {
 });
 
 gulp.task('watch', function () {
-	gulp.watch('app/scss/**/*.scss', ['styles']);
+	gulp.watch([
+		'app/scss/**/*.scss',
+        '!app/libs/**/*'
+	], ['styles']);
 	gulp.watch('app/libs/**/*.js', ['scripts']);
 	gulp.watch('app/js/*.js').on("change", browserSync.reload);
-	gulp.watch('app/**/*.html', ['buildhtml', 'browserSync_Reload']);
+	gulp.watch([
+	    'app/**/*.html',
+        '!app/libs/**/*'
+    ], ['buildhtml', 'browserSync_Reload']);
 });
 gulp.task('browserSync_Reload', function () {
 	browserSync.reload();
