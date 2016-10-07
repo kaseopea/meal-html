@@ -50,6 +50,7 @@ gulp.task('scripts', function () {
 			'./app/libs/modernizr/modernizr.js',
 			'./app/libs/jquery/dist/jquery.js',
 			'./app/libs/materialize/bin/materialize.js',
+			'./app/libs/chart.js/dist/Chart.bundle.js',
 		])
 		.pipe(concat('libs.js'))
 		// .pipe(uglify()) //Minify libs.js
