@@ -1,0 +1,1945 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+<head>
+    <title>MEAL APP</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Load CSS Start -->
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- Load CSS End -->
+    <!-- Load CSS Compiled without JS -->
+    <noscript>
+        <link rel="stylesheet" href="css/fonts.min.css">
+        <link rel="stylesheet" href="css/main.min.css">
+    </noscript>
+</head>
+
+<body class="catalog">
+
+<nav class="navi-color" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="catalog.html" class="brand-logo">
+            <img alt="Meal App" title="Meal App" src="img/logo_gray-blue_80px.svg" width="108px"> DISH
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="index.html"><i class="material-icons prefix">exit_to_app</i></a></li>
+            <li><a href="catalog.html"><i class="material-icons prefix">cached</i></a></li>
+            <!-- <li><a href="stats.html"><i class="material-icons prefix">assessment</i></a></li> -->
+            <li><a href="profile.html"><i class="material-icons prefix">account_circle</i></a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="index.html"><i class="material-icons">exit_to_app</i>Перейти на логин</a></li>
+            <li><a href="catalog.html"><i class="material-icons">cached</i> Перезагрузить</a></li>
+            <!-- <li><a href="stats.html"><i class="material-icons">assessment</i> Статистика</a></li> -->
+            <li><a href="profile.html"><i class="material-icons">account_circle</i> Настройки профиля</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+
+<section class="page-title supplier">
+    <div class="container">
+        <div class="row page-meta">
+            <div class="col s12 m6">
+                <h2 class="page-title__title">Ресторан «Браво»</h2>
+            </div>
+            <div class="col s12 m6 right-align">
+                <a href="suppliers.html" class="waves-effect waves-light btn-flat btn-supplier-change">Сменить поставщика</a>
+            </div>
+        </div>
+
+        <div class="main-tabs">
+          <div class="row">
+              <div class="col s12">
+                  <ul class="tabs">
+                      <li class="tab col s3"><a class="active" href="#test1">Каталог блюд</a></li>
+                      <li class="tab col s3"><a href="#test2">Мой заказ</a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div id="test1" class="col s12 catalog-grid">
+            
+<ul class="collapsible" data-collapsible="accordion">
+    <li>
+        <div class="collapsible-header active"><div class="category-title">Салаты</div></div>
+        <div class="collapsible-body">
+            <div class="row">
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+      <div class="loader-overlay"><div class="loader">Loading...</div></div>
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.32 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+</div>
+
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header"><div class="category-title">Первые блюда</div></div>
+        <div class="collapsible-body">
+            <div class="row">
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+      <div class="loader-overlay"><div class="loader">Loading...</div></div>
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.32 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+</div>
+
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header"><div class="category-title">Вторые блюда</div></div>
+        <div class="collapsible-body">
+            <div class="row">
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+      <div class="loader-overlay"><div class="loader">Loading...</div></div>
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.32 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+</div>
+
+        </div>
+    </li>
+
+    <li>
+        <div class="collapsible-header"><div class="category-title">Гарниры</div></div>
+        <div class="collapsible-body">
+            <div class="row">
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+      <div class="loader-overlay"><div class="loader">Loading...</div></div>
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.32 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+</div>
+
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header"><div class="category-title">Комплексы</div></div>
+        <div class="collapsible-body">
+            <div class="row">
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+      <div class="loader-overlay"><div class="loader">Loading...</div></div>
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.32 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+</div>
+
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header"><div class="category-title">Дополнительно</div></div>
+        <div class="collapsible-body">
+            <div class="row">
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+      <div class="loader-overlay"><div class="loader">Loading...</div></div>
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.32 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+</div>
+
+        </div>
+    </li>
+</ul>
+
+
+
+
+
+        </div>
+        <div id="test2" class="col s12">
+          <div class="catalog-grid">
+            <div class="row">
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+      <div class="loader-overlay"><div class="loader">Loading...</div></div>
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/cezar.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат овощной <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">3.2 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат овощной<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">150 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">1200 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text">свекла, горошек, лук, яйцо, майонез</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+    <div class="col s12 m6 l4">
+
+        <div class="card meal-card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="img/mimoza.jpg">
+    </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator flow-text">Салат «Мимоза» <i class="material-icons right">more_vert</i></span>
+        <div class="row">
+            <div class="col s4">
+                <div class="card-price flow-text">2.32 руб.</div>
+            </div>
+            <div class="col s8 right-align">
+                <div class="order-actions">
+
+                  <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                      <i class="large material-icons">add</i>
+                    </a>
+                    <ul>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-reveal">
+        <span class="card-title">Салат «Мимоза»<i class="material-icons right icon-close">close</i></span>
+        <div class="divider"></div>
+        <div class="section">
+            <div class="row">
+                <div class="col s6">
+                    <div class="flow-text">250 гр</div>
+                </div>
+                <div class="col s6 right-align">
+                    <div class="flow-text">2500 ккал</div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <p class="flow-text"> помидоры, перец, грибы, много алкоголя</p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+
+    </div>
+
+</div>
+
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s6 m6">
+
+          <div class="order-price flow-text"><i class="material-icons">account_balance_wallet</i> <strong>Сумма: 5 руб</strong></div>
+
+        </div>
+        <div class="col s6 m6">
+
+          <div class="right flow-text"><strong class="time-left blink">Осталось 30мин</strong></div>
+
+        </div>
+      </div>
+
+    </div>
+</footer>
+
+<!-- Load Scripts Start -->
+<script src="js/libs.js"></script>
+<script src="js/common.js"></script>
+<!-- Load Scripts End -->
+</body>
+</html>
+

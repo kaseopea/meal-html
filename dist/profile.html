@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+<head>
+    <title>MEAL APP</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Load CSS Start -->
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- Load CSS End -->
+    <!-- Load CSS Compiled without JS -->
+    <noscript>
+        <link rel="stylesheet" href="css/fonts.min.css">
+        <link rel="stylesheet" href="css/main.min.css">
+    </noscript>
+</head>
+
+<body class="@@bodyClass">
+
+<nav class="navi-color" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="catalog.html" class="brand-logo">
+            <img alt="Meal App" title="Meal App" src="img/logo_gray-blue_80px.svg" width="108px"> DISH
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="index.html"><i class="material-icons prefix">exit_to_app</i></a></li>
+            <li><a href="catalog.html"><i class="material-icons prefix">cached</i></a></li>
+            <!-- <li><a href="stats.html"><i class="material-icons prefix">assessment</i></a></li> -->
+            <li><a href="profile.html"><i class="material-icons prefix">account_circle</i></a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="index.html"><i class="material-icons">exit_to_app</i>Перейти на логин</a></li>
+            <li><a href="catalog.html"><i class="material-icons">cached</i> Перезагрузить</a></li>
+            <!-- <li><a href="stats.html"><i class="material-icons">assessment</i> Статистика</a></li> -->
+            <li><a href="profile.html"><i class="material-icons">account_circle</i> Настройки профиля</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+
+
+<section class="page-title supplier">
+    <div class="container">
+        <div class="row page-meta">
+            <div class="col s12 m6">
+                <h2 class="page-title__title">Профиль</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="profile">
+  <div class="container">
+    <div class="row">
+
+      <div class="col s12">
+        <div class="card">
+    <form action="catalog.html">
+        <div class="card-content">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Ваши имя и фамилия (как в UPSA)</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>В каком офисе вы работаете</option>
+                        <option value="1">EPAM Речицкий, 80</option>
+                        <option value="2">EPAM Интернациональная, 13</option>
+                    </select>
+                    <label>Офис</label>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="card-action">
+            <button class="btn btn-large waves-effect waves-light submit" type="submit" name="action">
+              Сохранить профиль
+            </button>
+        </div>
+
+    </form>
+    <!-- <div class="loader-overlay"><div class="loader">Loading...</div></div> -->
+</div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s6 m6">
+
+          <div class="order-price flow-text"><i class="material-icons">account_balance_wallet</i> <strong>Сумма: 5 руб</strong></div>
+
+        </div>
+        <div class="col s6 m6">
+
+          <div class="right flow-text"><strong class="time-left blink">Осталось 30мин</strong></div>
+
+        </div>
+      </div>
+
+    </div>
+</footer>
+
+<!-- Load Scripts Start -->
+<script src="js/libs.js"></script>
+<script src="js/common.js"></script>
+<!-- Load Scripts End -->
+</body>
+</html>
+

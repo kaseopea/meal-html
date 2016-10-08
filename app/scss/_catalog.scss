@@ -113,7 +113,7 @@
         position: absolute;
         right: 20px;
         bottom: 20px;
-        z-index: 995;
+        z-index: 985;
 
         .btn-floating {
           text-align: center;
@@ -134,6 +134,39 @@
                 margin: 0;
             }
         }
+    }
+
+    .order-label {
+      position: absolute;
+      top: 5%;
+      bottom: 5%;
+      left: 5%;
+      right: 5%;
+      z-index: 985;
+      text-align: center;
+      line-height: 100%;
+
+
+      padding: 2em 10px 5px 10px;
+      background: rgba(163,198,68, .9);
+      background: rgba(255,152,0, .9);
+      font-size: 200%;
+      color: $white;
+
+      &__contents {
+        border: 1px solid red;
+      }
+
+      i {
+        font-size: 100px;
+        color: $white;
+        display: block;
+
+        &:after {
+          display: block;
+          content: '';
+        }
+      }
     }
 
     .loader-overlay {

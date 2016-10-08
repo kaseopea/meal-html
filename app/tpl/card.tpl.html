@@ -2,6 +2,12 @@
     <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="@@imageUrl">
     </div>
+
+    <div class="order-label">
+        <i class="material-icons">done</i>
+        <span>2 порции</span>
+    </div>
+
     <div class="card-content">
         <span class="card-title activator flow-text">@@title <i class="material-icons right">more_vert</i></span>
         <div class="row">
@@ -16,14 +22,12 @@
                       <i class="large material-icons">add</i>
                     </a>
                     <ul>
-                      <li><a class="btn-floating raspberry">3x</a></li>
-                      <li><a class="btn-floating raspberry">2x</a></li>
-                      <li><a class="btn-floating raspberry">1x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 3 порции', 2000)">3x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 2 порции', 2000)">2x</a></li>
+                      <li><a class="btn-floating raspberry" onclick="Materialize.toast('Заказано 1 порции', 2000)">1x</a></li>
                     </ul>
                   </div>
 
-                    <!-- <a class="waves-effect waves-light btn" onclick="Materialize.toast('Заказ отменен', 2000)"><i class="material-icons right">remove_circle</i></a>
-                    <a class="waves-effect waves-light btn" onclick="Materialize.toast('Заказ сделан', 2000)"><i class="material-icons right">add_circle</i></a> -->
                 </div>
             </div>
         </div>

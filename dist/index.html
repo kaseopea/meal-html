@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+<head>
+    <title>MEAL APP</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Load CSS Start -->
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- Load CSS End -->
+    <!-- Load CSS Compiled without JS -->
+    <noscript>
+        <link rel="stylesheet" href="css/fonts.min.css">
+        <link rel="stylesheet" href="css/main.min.css">
+    </noscript>
+</head>
+
+<body class="welcome">
+
+
+<section class="header">
+  <div class="header__logo">
+    <i class="material-icons">local_dining</i>
+    <img alt="Meal App" title="Meal App" src="img/logo_gray-blue_80px.svg" width="200px">
+    </div>
+</section>
+
+<section class="welcomeForm">
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 offset-m3">
+
+              <div class="card">
+    <form action="catalog.html">
+        <div class="card-content">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Ваши имя и фамилия (как в UPSA)</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>В каком офисе вы работаете</option>
+                        <option value="1">EPAM Речицкий, 80</option>
+                        <option value="2">EPAM Интернациональная, 13</option>
+                    </select>
+                    <label>Офис</label>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="card-action">
+            <button class="btn btn-large waves-effect waves-light submit" type="submit" name="action">
+              Заказать обед
+            </button>
+        </div>
+
+    </form>
+    <!-- <div class="loader-overlay"><div class="loader">Loading...</div></div> -->
+</div>
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Load Scripts Start -->
+<script src="js/libs.js"></script>
+<script src="js/common.js"></script>
+<!-- Load Scripts End -->
+</body>
+</html>
+
